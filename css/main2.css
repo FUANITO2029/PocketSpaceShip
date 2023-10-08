@@ -1,0 +1,23 @@
+.description{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.d1{
+    width: 80%;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.d2{
+    width: 80%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    padding-top: 25px;
+}

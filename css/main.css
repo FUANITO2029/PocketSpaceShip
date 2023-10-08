@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 14px;
+  color: white;
+  background-image: radial-gradient(circle at 47% 45.71%, #003e2f 0, #003e35 3.57%, #003e3a 7.14%, #003e40 10.71%, #003e45 14.29%, #003e4a 17.86%, #003d4f 21.43%, #003d53 25%, #003c56 28.57%, #003b59 32.14%, #003a5b 35.71%, #00385d 39.29%, #00375d 42.86%, #12355d 46.43%, #21335c 50%, #2c315a 53.57%, #352f58 57.14%, #3d2c54 60.71%, #442a51 64.29%, #4a284c 67.86%, #4f2647 71.43%, #532442 75%, #56223d 78.57%, #582137 82.14%, #592132 85.71%, #5a212c 89.29%, #5a2227 92.86%, #592422 96.43%, #57251d 100%);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* overflow: hidden; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+
+}
+.header{
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 300PX;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 2 0px;
+}
+.vinculos{
+  display: flex;
+}
+.vinculos p{
+  padding-right: 50px;
+  font-size: 20px;
+}
+.play a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+.about a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.title{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-top: 100px;
+}
+.title h1{
+  font-family: Righteous;
+  font-size: 46px;
+  text-align: center;
+}
+.title h3{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.foot {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.button {
+  font-size: 25px;
+  color: white;
+  text-decoration: underline;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.points {
+  width: 300px;
+  height: 12px;
+  display: flex; 
+  justify-content: space-between;
+}
+.point{
+  border: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+#p1{background-color:#1A1A66;}
+#p2{background-color:#2D2D99;}
+#p3{background-color:#4D4DCB;}
+#p4{background-color:#A83535;}
+#p5{background-color:#D94C4C;}
+#p6{background-color:#F16868;}
+#p7{
+  width: 50%;
+  background-color:#D9D9D9;
+  border-radius: 129px;
+}  
+ 
